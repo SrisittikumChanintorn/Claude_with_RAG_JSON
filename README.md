@@ -59,8 +59,9 @@ pip install -r requirements.txt
 
 5. Configure API key 🔑
 ```bash   
-# Generate API KEY from website and define as a variable.
-os.environ["OPENAI_API_KEY"] = "YOUR_API_KEY"   # Replace with your actual  API key
+# Generate API KEY from Claude and OpenAI website and define as a variable.
+os.environ["ANTHROPIC_API_KEY"] =  "YOUR_API_KEY"  # Replace with your actual API key
+os.environ["OPENAI_API_KEY"] = "YOUR_API_KEY"      # Replace with your actual  API key
 ```
 
 6. Run the analysis ▶️
